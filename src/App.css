@@ -1,0 +1,45 @@
+body{
+  background-color: aqua;
+}
+h1{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.wrapper{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:10px;
+  background:linear-gradient(45deg, rgb(15, 67, 221),yellow);
+  padding:50px;
+  border-radius: 10px;
+  border:2px solid black;
+  
+}
+.wrapper button{
+  border:none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 5px;
+}
+.minus{
+  background-color: red;
+}
+p{
+  background-color: aliceblue;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding:10px 30px;
+  font-size: 50px;
+  border-radius: 50%;
+}
+.plus{
+  background-color: blue;
+}
+button:disabled{
+  opacity: 0.5;
+}
